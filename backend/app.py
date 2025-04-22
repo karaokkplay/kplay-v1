@@ -295,6 +295,11 @@ def extract_chords_from_midi(midi_path):
     
     return extracted_chords
 from flask import send_from_directory
+
+@app.route('/')
+def serve_index():
+    return send_from_directory('../frontend', 'index.html')
+
 @app.route('/css/<path:filename>')
 def serve_css(filename):
     return send_from_directory('../frontend/css', filename)
