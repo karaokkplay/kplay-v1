@@ -6,10 +6,10 @@ load_dotenv()
 
 # Configuração do banco de dados
 DB_CONFIG = {
-    'host': os.getenv('DB_HOST', 'localhost'),
-    'user': os.getenv('DB_USER', 'root'),
-    'password': os.getenv('DB_PASSWORD', ''),
-    'database': os.getenv('DB_NAME', 'karaoke_app')
+    'host': os.getenv('DB_HOST', 'dpg-d03kh9idbo4c738frj3g-a'),
+    'user': os.getenv('DB_USER', 'kplay_v2_user'),
+    'password': os.getenv('DB_PASSWORD', '5z1XDigq8UyDvtZbyKCLXMXWSE12gnpp'),
+    'database': os.getenv('DB_NAME', 'kplay_v2')
 }
 
 # Configuração de pastas
