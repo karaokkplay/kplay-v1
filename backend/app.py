@@ -294,6 +294,9 @@ def extract_chords_from_midi(midi_path):
     extracted_chords.sort(key=lambda x: x['time'])
     
     return extracted_chords
+@app.route('/')
+def index():
+    return 'API KPlay está no ar! 🎶'
 
 if __name__ == '__main__':
     # Criar banco de dados e tabelas se não existirem
