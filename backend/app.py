@@ -294,9 +294,15 @@ def extract_chords_from_midi(midi_path):
     extracted_chords.sort(key=lambda x: x['time'])
     
     return extracted_chords
-@app.route('/')
-def index():
-    return 'API KPlay está no ar! 🎶'
+from flask import send_from_directory
+@app.route('/css/<path:filename>')
+def serve_css(filename):
+    return send_from_directory('../frontend/css', filename)
+
+@app.route('/js/<path:filename>')
+def serve_js(filename):
+    return send_from_directory('../frontend/js', filename)
+
 
 if __name__ == '__main__':
     # Criar banco de dados e tabelas se não existirem
