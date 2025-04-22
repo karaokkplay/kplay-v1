@@ -6,7 +6,7 @@ import json
 from music21 import converter, chord
 from pychord import Chord
 import backend.database as database
-import backend.config as configd.config as config
+import config
 
 # Inicializar a aplicação Flask
 app = Flask(__name__)
