@@ -1,0 +1,302 @@
+{
+  "progressions": {
+    "pop": [
+      ["C", "G", "Am", "F"],
+      ["C", "F", "G", "C"],
+      ["C", "F", "Gsus4", "G"],
+      ["C", "Am", "Dm", "G"],
+      ["C", "Dm", "F", "G"],
+      ["C", "G/B", "Am", "G"],
+      ["Am", "Dm", "E", "Am"],
+      ["Am", "C", "Dm", "Em"],
+      ["D", "A", "Bm", "G"],
+      ["G", "D", "Em", "C"]
+    ],
+    "rock": [
+      ["C", "Am", "F", "G"],
+      ["C", "F", "C", "G"],
+      ["C", "C", "Eb", "F"],
+      ["C", "E", "F", "Fm"],
+      ["Dm", "C", "G", "Bb"],
+      ["G", "G", "F", "C"],
+      ["Am", "F", "C", "G"],
+      ["Am", "E7", "D", "G7"],
+      ["E", "B", "C#m", "A"],
+      ["A", "D", "E", "A"]
+    ],
+    "jazz": [
+      ["Dm7", "G7", "CΔ", "CΔ"],
+      ["Dm7", "G7", "CΔ", "A7"],
+      ["CΔ", "Am7", "Dm7", "G7"],
+      ["CΔ", "C♯o7", "Dm7", "G7"],
+      ["CΔ", "C7", "FΔ", "Fm7"],
+      ["Am7(♭5)", "Dm7", "G7", "CΔ"],
+      ["Dm7(♭5)", "G7", "Cm7", "Cm7"],
+      ["Cm7", "G7", "Cm7", "G7"],
+      ["Fmaj7", "Em7", "Dm7", "Cmaj7"],
+      ["Bbmaj7", "Gm7", "Cm7", "F7"]
+    ],
+    "blues": [
+      ["C7", "C7", "C7", "C7", "F7", "F7", "C7", "C7", "G7", "F7", "C7", "C7"],
+      ["G7", "G7", "G7", "G7", "C7", "C7", "G7", "G7", "D7", "C7", "G7", "G7"],
+      ["A7", "A7", "A7", "A7", "D7", "D7", "A7", "A7", "E7", "D7", "A7", "A7"],
+      ["E7", "E7", "E7", "E7", "A7", "A7", "E7", "E7", "B7", "A7", "E7", "E7"]
+    ],
+    "bossa_nova": [
+      ["Dm7", "G7", "CΔ", "CΔ"],
+      ["Fm7", "Bb7", "EbΔ", "EbΔ"],
+      ["Am7", "D7", "GΔ", "GΔ"],
+      ["Bm7", "E7", "AΔ", "AΔ"],
+      ["CΔ", "Am7", "Dm7", "G7"],
+      ["FΔ", "Dm7", "Gm7", "C7"]
+    ],
+    "funk": [
+      ["E9", "E9", "E9", "E9"],
+      ["G9", "G9", "G9", "G9"],
+      ["Bb9", "Bb9", "Bb9", "Bb9"],
+      ["D9", "D9", "D9", "D9"],
+      ["C#m7", "F#7", "Bmaj7", "E9"],
+      ["Am7", "D7", "Gmaj7", "C9"]
+    ],
+    "reggae": [
+      ["A", "G", "D", "A"],
+      ["C", "Bb", "F", "C"],
+      ["G", "F", "C", "G"],
+      ["D", "C", "G", "D"],
+      ["Em", "D", "C", "B7"],
+      ["Am", "G", "F", "E7"]
+    ],
+    "country": [
+      ["G", "C", "D", "G"],
+      ["D", "G", "A", "D"],
+      ["A", "D", "E", "A"],
+      ["C", "F", "G", "C"],
+      ["G", "Em", "C", "D"],
+      ["D", "Bm", "G", "A"]
+    ],
+    "folk": [
+      ["C", "Am", "F", "G"],
+      ["G", "Em", "C", "D"],
+      ["D", "Bm", "G", "A"],
+      ["A", "F#m", "D", "E"],
+      ["Em", "C", "G", "D"],
+      ["Am", "F", "C", "G"]
+    ],
+    "electronic": [
+      ["Am", "F", "C", "G"],
+      ["Cm", "Ab", "Eb", "Bb"],
+      ["Gm", "Eb", "Bb", "F"],
+      ["Dm", "Bb", "F", "C"],
+      ["Em", "C", "G", "D"],
+      ["Bm", "G", "D", "A"]
+    ]
+  },
+  "chord_types": {
+    "major": [0, 4, 7],
+    "minor": [0, 3, 7],
+    "dominant7": [0, 4, 7, 10],
+    "major7": [0, 4, 7, 11],
+    "minor7": [0, 3, 7, 10],
+    "diminished": [0, 3, 6],
+    "diminished7": [0, 3, 6, 9],
+    "half_diminished": [0, 3, 6, 10],
+    "augmented": [0, 4, 8],
+    "augmented7": [0, 4, 8, 10],
+    "sus4": [0, 5, 7],
+    "sus2": [0, 2, 7],
+    "7sus4": [0, 5, 7, 10],
+    "6": [0, 4, 7, 9],
+    "minor6": [0, 3, 7, 9],
+    "9": [0, 4, 7, 10, 14],
+    "major9": [0, 4, 7, 11, 14],
+    "minor9": [0, 3, 7, 10, 14],
+    "add9": [0, 4, 7, 14],
+    "minor_add9": [0, 3, 7, 14],
+    "11": [0, 4, 7, 10, 14, 17],
+    "major11": [0, 4, 7, 11, 14, 17],
+    "minor11": [0, 3, 7, 10, 14, 17],
+    "13": [0, 4, 7, 10, 14, 17, 21],
+    "major13": [0, 4, 7, 11, 14, 17, 21],
+    "minor13": [0, 3, 7, 10, 14, 17, 21]
+  },
+  "common_substitutions": {
+    "C": ["Am", "Cmaj7", "C6", "Cadd9"],
+    "Cm": ["Eb", "Cm7", "Cm6", "Cm9"],
+    "C7": ["C9", "C13", "C7sus4", "Gb7"],
+    "Cmaj7": ["C6", "Cmaj9", "Em7", "Am7"],
+    "Cm7": ["Ebmaj7", "Cm9", "Fm7", "Abmaj7"],
+    "Cdim": ["Cm7b5", "Ebm6", "Gbdim", "Adim"],
+    "Caug": ["C+", "Eaug", "Abaug", "C7#5"],
+    "Csus4": ["Fsus2", "C7sus4", "Gsus4/C", "Bb/C"],
+    "G": ["Em", "Gmaj7", "G6", "Gadd9"],
+    "Gm": ["Bb", "Gm7", "Gm6", "Gm9"],
+    "G7": ["G9", "G13", "G7sus4", "Db7"],
+    "Gmaj7": ["G6", "Gmaj9", "Bm7", "Em7"],
+    "Gm7": ["Bbmaj7", "Gm9", "Cm7", "Ebmaj7"],
+    "Gdim": ["Gm7b5", "Bbm6", "Dbdim", "Edim"],
+    "Gaug": ["G+", "Baug", "Ebaug", "G7#5"],
+    "Gsus4": ["Csus2", "G7sus4", "Dsus4/G", "F/G"],
+    "D": ["Bm", "Dmaj7", "D6", "Dadd9"],
+    "Dm": ["F", "Dm7", "Dm6", "Dm9"],
+    "D7": ["D9", "D13", "D7sus4", "Ab7"],
+    "Dmaj7": ["D6", "Dmaj9", "F#m7", "Bm7"],
+    "Dm7": ["Fmaj7", "Dm9", "Gm7", "Bbmaj7"],
+    "Ddim": ["Dm7b5", "Fm6", "Abdim", "Bdim"],
+    "Daug": ["D+", "F#aug", "Bbaug", "D7#5"],
+    "Dsus4": ["Gsus2", "D7sus4", "Asus4/D", "C/D"],
+    "A": ["F#m", "Amaj7", "A6", "Aadd9"],
+    "Am": ["C", "Am7", "Am6", "Am9"],
+    "A7": ["A9", "A13", "A7sus4", "Eb7"],
+    "Amaj7": ["A6", "Amaj9", "C#m7", "F#m7"],
+    "Am7": ["Cmaj7", "Am9", "Dm7", "Fmaj7"],
+    "Adim": ["Am7b5", "Cm6", "Ebdim", "F#dim"],
+    "Aaug": ["A+", "C#aug", "Faug", "A7#5"],
+    "Asus4": ["Dsus2", "A7sus4", "Esus4/A", "G/A"],
+    "E": ["C#m", "Emaj7", "E6", "Eadd9"],
+    "Em": ["G", "Em7", "Em6", "Em9"],
+    "E7": ["E9", "E13", "E7sus4", "Bb7"],
+    "Emaj7": ["E6", "Emaj9", "G#m7", "C#m7"],
+    "Em7": ["Gmaj7", "Em9", "Am7", "Cmaj7"],
+    "Edim": ["Em7b5", "Gm6", "Bbdim", "C#dim"],
+    "Eaug": ["E+", "G#aug", "Caug", "E7#5"],
+    "Esus4": ["Asus2", "E7sus4", "Bsus4/E", "D/E"],
+    "F": ["Dm", "Fmaj7", "F6", "Fadd9"],
+    "Fm": ["Ab", "Fm7", "Fm6", "Fm9"],
+    "F7": ["F9", "F13", "F7sus4", "B7"],
+    "Fmaj7": ["F6", "Fmaj9", "Am7", "Dm7"],
+    "Fm7": ["Abmaj7", "Fm9", "Bbm7", "Dbmaj7"],
+    "Fdim": ["Fm7b5", "Abm6", "Bdim", "Ddim"],
+    "Faug": ["F+", "Aaug", "Dbaug", "F7#5"],
+    "Fsus4": ["Bbsus2", "F7sus4", "Csus4/F", "Eb/F"],
+    "B": ["G#m", "Bmaj7", "B6", "Badd9"],
+    "Bm": ["D", "Bm7", "Bm6", "Bm9"],
+    "B7": ["B9", "B13", "B7sus4", "F7"],
+    "Bmaj7": ["B6", "Bmaj9", "D#m7", "G#m7"],
+    "Bm7": ["Dmaj7", "Bm9", "Em7", "Gmaj7"],
+    "Bdim": ["Bm7b5", "Dm6", "Fdim", "Abdim"],
+    "Baug": ["B+", "D#aug", "Gaug", "B7#5"],
+    "Bsus4": ["Esus2", "B7sus4", "F#sus4/B", "A/B"]
+  },
+  "songs": [
+    {
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "progression": ["C", "G", "Am", "F", "C", "G", "F", "C"],
+      "genre": "pop"
+    },
+    {
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "progression": ["F", "C", "Bb", "F", "C7", "F"],
+      "genre": "pop"
+    },
+    {
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "progression": ["C", "F", "C", "F", "C", "F", "C", "F", "Dm", "G", "C", "G", "E", "E7", "Am", "Dm", "F", "G", "C"],
+      "genre": "pop"
+    },
+    {
+      "title": "Hallelujah",
+      "artist": "Leonard Cohen",
+      "progression": ["C", "Am", "C", "Am", "F", "G", "C", "G"],
+      "genre": "folk"
+    },
+    {
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "progression": ["Em7", "G", "Dsus4", "A7sus4", "Cadd9", "Em7", "G", "Dsus4"],
+      "genre": "rock"
+    },
+    {
+      "title": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd",
+      "progression": ["D", "C", "G", "D", "C", "G"],
+      "genre": "rock"
+    },
+    {
+      "title": "Autumn Leaves",
+      "artist": "Jazz Standard",
+      "progression": ["Cm7", "F7", "Bbmaj7", "Ebmaj7", "Am7b5", "D7", "Gm7", "Gm7"],
+      "genre": "jazz"
+    },
+    {
+      "title": "All of Me",
+      "artist": "Jazz Standard",
+      "progression": ["Cmaj7", "E7", "A7", "Dm7", "E7", "Am7", "D7", "Dm7", "G7", "Cmaj7"],
+      "genre": "jazz"
+    },
+    {
+      "title": "Fly Me to the Moon",
+      "artist": "Frank Sinatra",
+      "progression": ["Am7", "Dm7", "G7", "Cmaj7", "Fmaj7", "Bm7b5", "E7", "Am7"],
+      "genre": "jazz"
+    },
+    {
+      "title": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses",
+      "progression": ["D", "C", "G", "D", "C", "G"],
+      "genre": "rock"
+    },
+    {
+      "title": "No Woman, No Cry",
+      "artist": "Bob Marley",
+      "progression": ["C", "G", "Am", "F", "C", "F", "C", "G"],
+      "genre": "reggae"
+    },
+    {
+      "title": "Stir It Up",
+      "artist": "Bob Marley",
+      "progression": ["A", "D", "E", "A", "D", "E"],
+      "genre": "reggae"
+    },
+    {
+      "title": "Jolene",
+      "artist": "Dolly Parton",
+      "progression": ["Am", "C", "G", "Am", "C", "G", "Am"],
+      "genre": "country"
+    },
+    {
+      "title": "Ring of Fire",
+      "artist": "Johnny Cash",
+      "progression": ["G", "C", "G", "G", "C", "G", "D", "G"],
+      "genre": "country"
+    },
+    {
+      "title": "Get Lucky",
+      "artist": "Daft Punk",
+      "progression": ["Bm", "D", "F#m", "E", "Bm", "D", "F#m", "E"],
+      "genre": "electronic"
+    },
+    {
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
+      "progression": ["Ebm7", "Ebm7", "Ebm7", "Ebm7"],
+      "genre": "funk"
+    },
+    {
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "progression": ["F#m", "E", "F#m", "E", "F#m", "E", "D", "E"],
+      "genre": "pop"
+    },
+    {
+      "title": "Garota de Ipanema",
+      "artist": "Tom Jobim",
+      "progression": ["Fmaj7", "G7", "Gm7", "Gb7", "Fmaj7", "Gb7", "Gm7", "Gb7"],
+      "genre": "bossa_nova"
+    },
+    {
+      "title": "Desafinado",
+      "artist": "Tom Jobim",
+      "progression": ["Fmaj7", "Gb7", "Bmaj7", "D7", "Gm7", "C7", "Fmaj7"],
+      "genre": "bossa_nova"
+    },
+    {
+      "title": "Redemption Song",
+      "artist": "Bob Marley",
+      "progression": ["G", "Em", "C", "D", "G", "Em", "C", "D"],
+      "genre": "reggae"
+    }
+  ]
+}

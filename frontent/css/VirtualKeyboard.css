@@ -1,0 +1,200 @@
+.virtual-keyboard-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.keyboard {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin: 20px 0;
+  background-color: #111;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.white-keys {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.white-key {
+  flex: 1;
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.1s;
+}
+
+.white-key:hover {
+  background-color: #f0f0f0;
+}
+
+.white-key.pressed {
+  background-color: #ccc;
+}
+
+.white-key.in-chord {
+  background-color: #ff8c00; /* Laranja para destacar acordes */
+}
+
+.white-key.in-chord.pressed {
+  background-color: #e67e00;
+}
+
+.black-keys {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+}
+
+.black-key {
+  position: absolute;
+  width: 3%;
+  height: 100%;
+  background-color: #222;
+  border-radius: 0 0 4px 4px;
+  z-index: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5px;
+  transition: background-color 0.1s;
+}
+
+.black-key:hover {
+  background-color: #333;
+}
+
+.black-key.pressed {
+  background-color: #444;
+}
+
+.black-key.in-chord {
+  background-color: #cc7000; /* Laranja escuro para teclas pretas destacadas */
+}
+
+.black-key.in-chord.pressed {
+  background-color: #b36200;
+}
+
+.note-name {
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+.black-key .note-name {
+  color: white;
+  font-size: 10px;
+}
+
+.keyboard-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+}
+
+.control-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.control-group select {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+.chord-info {
+  background-color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.chord-info h3 {
+  margin: 0 0 10px 0;
+  color: #ff8c00; /* Laranja */
+  font-size: 18px;
+}
+
+.chord-notes {
+  font-size: 14px;
+}
+
+.chord-note {
+  font-weight: bold;
+  color: #ff8c00; /* Laranja */
+}
+
+.keyboard-help {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #aaa;
+  text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .keyboard {
+    height: 150px;
+  }
+  
+  .keyboard-controls {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .note-name {
+    font-size: 10px;
+  }
+  
+  .black-key .note-name {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .keyboard {
+    height: 120px;
+  }
+  
+  .note-name {
+    display: none;
+  }
+  
+  .keyboard-help {
+    display: none;
+  }
+}
